@@ -10,14 +10,27 @@ Since the company went public, investors have been pushing for Eniac to scale up
 # Table of Contents
 
 ## Objective
-## Dataset Overview
-## Business Questions
+The objective of the analysis is to address the following topics.
+
+* How should products be classified into different categories to simplify reports and analysis?
+* What is the distribution of product prices across different categories?
+* How many products are being discounted?
+* How big are the offered discounts as a percentage of the product prices?
+* How do seasonality and special dates (Christmas, Black Friday) affect sales?
+* How could data collection be improved?
+
+### A problem with the Data
+The data appears to have some inconsistencies - The real value good Data Analysts can bring is usually to male dirty data usable and trustable.
+
+## Dataset & CSVs
+
+#### orderlines.csv
 
 
-## Business Questions
-- How should products be classified into different categories to simplify reports and analysis?
-- What is the distribution of product prices across different categories?
-- How many products are being discounted?
-- How big are the offered discounts as a percentage of the product prices?
-- How do seasonality and special dates (Christmas, Black Friday) affect sales?
-- How could data collection be improved?
+#### products.csv
+
+#### brands.csv
+
+#### orders.csv
+
+
