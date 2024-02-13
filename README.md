@@ -19,12 +19,17 @@ The objective of the analysis is to address the following topics.
 * How do seasonality and special dates (Christmas, Black Friday) affect sales?
 * How could data collection be improved?
 
-### A problem with the Data
+## Overview
+
+![skills](skills.png)
+
+
+#### A problem with the Data
 The data appears to have some inconsistencies - The real value good Data Analysts can bring is usually to male dirty data usable and trustable.
 
 ## Dataset & CSVs
 
-#### orderlines.csv
+##### orderlines.csv
 
 * id – a unique identifier for each row in this file
 * id_order – corresponds to orders.order_id
@@ -34,7 +39,7 @@ The data appears to have some inconsistencies - The real value good Data Analyst
 * unit_price – the unitary price (in euros) of each product at the moment of placing that order
 * date – timestamp for the processing of that product
 
-#### products.csv
+##### products.csv
 
 * sku – stock keeping unit: a unique identifier for each product
 * name – product name
@@ -44,12 +49,12 @@ The data appears to have some inconsistencies - The real value good Data Analyst
 * in_stock – whether or not the product was in stock at the moment of the data extraction
 * type – a numerical code for product type
 
-#### brands.csv
+##### brands.csv
 
 * short – the 3-character code by which the brand can be identified in the first 3 characters of products.sku
 * long – brand name
 
-#### orders.csv
+##### orders.csv
 * order_id – a unique identifier for each order
 * created_date – a timestamp for when the order was created
 * total_paid – the total amount paid by the customer for this order, in euros
@@ -75,10 +80,10 @@ The data appears to have some inconsistencies - The real value good Data Analyst
 
 ## Data Cleaning & Data Quality
 
-### Remove duplicate rows
+#### Remove duplicate rows
 remove rows that contain exactly the same values and that appears twice across all columns
 
-### Handle missing values
+#### Handle missing values
 Explore missing values and decide what should be the strategy for dealing with them:
 
 * drop them
@@ -86,10 +91,10 @@ Explore missing values and decide what should be the strategy for dealing with t
   - Categorical data can be filled in with a placeholder such as "Unknown"
   - Numerical data can be filled in with mean, median if necessary
   
-### Change data formats
+#### Change data formats
 * Convert categorical variables to numerical format
 
-###  Outliers & Data Inconsistencies
+####  Outliers & Data Inconsistencies
 * scatter plots can be useful to spot outliers
 * text format can sometimes cause problems e.g "Female", "female" - standardise values when needed
 
@@ -98,22 +103,37 @@ Here we find out the main objective of our analysis, whether offering discounts 
 Keep in mind, this means looking at which products have been sold therefore looking into the `orderlines` table.
 Discounts are defined as the difference between `orderlines.unit_price` and `products.price`. Merging both tables and creating a column that contains the discount is, thus, probably a good idea.
 
-### Analyse Sales Trends
+#### Analyse Sales Trends
 
 * analyse sales trends over time
 * analyse seasonal patterns
 
-### Analyse Revenue
+#### Analyse Revenue
 
 * `orderlines` , `orderlines.unit_price` , `products.price` to understanding pricing
 * Analyse the products that bring in the most profit/revenue
 
-### Analyse Customer Behaviour
+#### Analyse Customer Behaviour
 
 * discover most sold product and customer purchase behaviour
 * identify high value / loyal customers
 
 ## Data Visualisation
+Plots are not just pretty graphs to show in a presentation!
+They can help Data Analysts find something they were not specifically looking for. They also tell beautiful stories. 
+Data insights are more valuable when they are easily understood and communicated and visualisation can definitely help accomplish this. 
+
+* It's important to choose the right Visusalisation
+  `bar chart`, `line graphs`, `scatter plots`
+* It's important to choose the right colours and sizes for the visualisations
+  'Matplotlib`, `Seaborn` , `Plotly` - annotate plots and choose the right colours and size
+* It's important to be creative by using interactive dashboards tools such as Tableau or PowerBI
+    - Python has other libraries that can offer this too
+
+## Conclusion
+
+Following the guidelines above, I have successfully cleaned our data, extracted the data I need in order to get valuable insights from it and have shared and communicated my expert opinions and insights by addressing the main questions I was tasked with. **What should Eniac's strategy be concerning Discounts**
+With the help of my thorough analysis and visualisation I was able to do so effectively. 
   
 
 
