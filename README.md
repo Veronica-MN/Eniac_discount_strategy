@@ -1,4 +1,4 @@
-# Eniac_discount_strategy
+# Data Cleaning & Storytelling Case Study
 
 
 Eniac is an online marketplace specializing in Apple-compatible accessories. It was founded ten years ago in Spain and has since grown and expanded to other neighboring countries.
@@ -6,6 +6,13 @@ Eniac is an online marketplace specializing in Apple-compatible accessories. It 
 In addition to offering a wide catalog of products at competitive prices, Eniac provides friendly and professional tech support and consultation to its customers. The warmhearted spirit that thrives with direct contact with the customers is at the core of the company.
 
 Since the company went public, investors have been pushing for Eniac to scale up the business and become a major e-commerce player globally. It goes without saying that it is an arduous challenge to do so while retaining the human side of the business, which is Eniac’s emblem.
+
+# Table of Contents
+
+## Objective
+## Dataset Overview
+## Business Questions
+
 
 ## Business Questions
 - How should products be classified into different categories to simplify reports and analysis?
