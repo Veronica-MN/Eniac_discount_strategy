@@ -98,6 +98,24 @@ Here we find out the main objective of our analysis, whether offering discounts 
 Keep in mind, this means looking at which products have been sold therefore looking into the `orderlines` table.
 Discounts are defined as the difference between `orderlines.unit_price` and `products.price`. Merging both tables and creating a column that contains the discount is, thus, probably a good idea.
 
+### Analyse Sales Trends
+
+* analyse sales trends over time
+* analyse seasonal patterns
+
+### Analyse Revenue
+
+* `orderlines` , `orderlines.unit_price` , `products.price` to understanding pricing
+* Analyse the products that bring in the most profit/revenue
+
+### Analyse Customer Behaviour
+
+* discover most sold product and customer purchase behaviour
+* identify high value / loyal customers
+
+## Data Visualisation
+  
+
 
 
 
