@@ -12,6 +12,13 @@ Since the company went public, investors have been pushing for Eniac to scale up
 - [Objective](#Objective)
 - [Overview](#Overview)
 - [A problem with the Data](#a-problem-with-the-data)
+- [Datasets & CSVs](#datasets--csvs)
+- [Exploring the data is critical - keep asking questions](#exploring-the-data-is-critical---keep-asking-questions)
+- [Data Cleaning & Data Quality](#data-cleaning--data-quality)
+- [Data Analysis](#data-analysis)
+- [Data Visualisation](#data-visualisation)
+- [Conclusion](#Conclusion)
+
 
 
 ## Objective
@@ -32,7 +39,7 @@ The objective of the analysis is to address the following topics.
 #### A problem with the Data
 The data appears to have some inconsistencies - The real value good Data Analysts can bring is usually to male dirty data usable and trustable.
 
-## Dataset & CSVs
+## Datasets & CSVs
 
 ##### orderlines.csv
 
