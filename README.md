@@ -93,4 +93,11 @@ Explore missing values and decide what should be the strategy for dealing with t
 * scatter plots can be useful to spot outliers
 * text format can sometimes cause problems e.g "Female", "female" - standardise values when needed
 
+## Data Analysis
+Here we find out the main objective of our analysis, whether offering discounts is beneficial for the company. 
+Keep in mind, this means looking at which products have been sold therefore looking into the `orderlines` table.
+Discounts are defined as the difference between `orderlines.unit_price` and `products.price`. Merging both tables and creating a column that contains the discount is, thus, probably a good idea.
+
+
+
 
