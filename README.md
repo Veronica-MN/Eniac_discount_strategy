@@ -9,6 +9,11 @@ Since the company went public, investors have been pushing for Eniac to scale up
 
 # Table of Contents
 
+[Objective](#Objective)
+[Overview](#Overview)
+[A problem with the Data](#a-problem-with-the-data)
+
+
 ## Objective
 The objective of the analysis is to address the following topics.
 
